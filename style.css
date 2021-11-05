@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: #f6ece8;
+}
+
+#my_img{
+    margin: 20px;
+    width: 80%;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: -37px 32px 29px -7px rgba(0,0,0,0.51);
+}
+
+#myName{
+    color: #9e5d41;
+}
+
+h2, h3{
+    color: #9e5d41;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #be7d61;
+}
+
+li{
+    list-style-image: url(img/list.png);
+    list-style-position: inside;
+    margin: 10px;
+}
+
+.border{
+    margin: 30px;
+    background-color: #be7d61;
+}
+
+#introduction:hover, #contact:hover, #edu:hover, #prog_lang:hover,
+#hobbies:hover, #languages:hover{
+   background-color: #e3c7bb;
+}
+
+#add_info{
+    margin: 50px 0px;
+}
+
